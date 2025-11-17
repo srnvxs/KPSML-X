@@ -422,7 +422,7 @@ if len(BASE_URL) == 0:
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-    UPSTREAM_REPO = 'https://github.com/Tamilupdates/KPSML-X'
+    UPSTREAM_REPO = 'https://github.com/srnvxs/KPSML-X'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
@@ -535,11 +535,11 @@ if len(TITLE_NAME) == 0:
     
 COVER_IMAGE = environ.get('COVER_IMAGE', '')
 if len(COVER_IMAGE) == 0:
-    COVER_IMAGE = 'https://graph.org/file/0ff9d5e94a070fe4154c0.jpg'
+    COVER_IMAGE = 'https://envs.sh/VYO.jpg'
 
 GD_INFO = environ.get('GD_INFO', '')
 if len(GD_INFO) == 0:
-    GD_INFO = 'Uploaded by KPSML-X Leech Bot'
+    GD_INFO = 'Uploaded by PSPK Leech Bot'
 
 SAVE_MSG = environ.get('SAVE_MSG', '')
 SAVE_MSG = SAVE_MSG.lower() == 'true'
